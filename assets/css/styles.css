@@ -42,11 +42,11 @@ nav {
 }
 
 a {
-    color:#777777 !important;
+    color:#862d86 !important;
 }
 
 a:hover {
-    color:#4aaaa5 !important;
+    color:#777777 !important;
     text-decoration: none !important;
 }
 
@@ -74,7 +74,7 @@ nav h4 {
     position:absolute;
     margin-top:-19px;
     margin-left:16px;
-    background-color:#4aaaa5;
+    background-color:#862d86;
     padding:15px 12px;
 }
 
@@ -121,7 +121,8 @@ nav h4 {
 }
 
 .greenText {
-    color:#4aaaa5;
+    color:#862d86;
+    font-size:18px;
 }
 
 .whiteText {
@@ -136,16 +137,15 @@ span {
     background-color:#737373;
     height:120px;
     width:100%;
-    text-align:center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     margin-top:10px;
-    border-top:5px solid #4aaaa5;
+    border-top:5px solid #862d86;
+    padding-top:20px;
 }
 
-.footer span {
-    color:#4aaaa5;
+.footer p {
+    color:#fff;
+    display:flex;
+    justify-content: center;
 }
 
 /* .card-body{
