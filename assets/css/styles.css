@@ -1,0 +1,189 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-image:url("../images/markus-spiske-518966-unsplash.jpg");
+    background-size:cover;
+    font-size:15px !important;
+    line-height:1.5em;
+    letter-spacing:.02em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spacer{
+    height:300px;
+    background-color:transparent;
+}
+
+#profilePic {
+    height:300px;
+    width:240px;
+}
+
+/* h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+nav {
+    background-color:white !important;
+    width:100% !important;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.navbar {
+    padding-top:40px !important;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container {
+    max-width:960px !important;
+}
+
+a {
+    color:#777777 !important;
+}
+
+a:hover {
+    color:#4aaaa5 !important;
+    text-decoration: none !important;
+}
+
+.nav .container ul {
+    margin-top:10px;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.nav .container {
+    padding-top:40px;
+}
+
+.nav .container ul li {
+    border-left:1px solid #777777;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.nav .container ul li:first-of-type {
+    border-left:none;
+}
+
+nav h4 {
+    position:absolute;
+    margin-top:-19px;
+    margin-left:16px;
+    background-color:#4aaaa5;
+    padding:15px 12px;
+}
+
+#navbarName {
+    background-color:green;
+    padding:20px;
+}
+
+.navList {
+    padding-bottom:10px;
+}
+
+.marginTop10 {
+    margin-top:10px !important;
+}
+
+/* #profilePic {
+    padding:20px;
+} */
+
+.whiteBanner {
+    width:100%;
+    height:90px;
+    background-color:white;
+    display:flex;
+}
+
+.whiteBackground {
+    height:auto;
+    width:100%;
+    background-color:white;
+}
+
+.container:nth-of-type(2) {
+    margin-top:10px;
+}
+
+.padding20 {
+    padding:20px;
+}
+
+.borderBottom {
+    border-bottom:2px solid #cccccc;
+}
+
+.greenText {
+    color:#4aaaa5;
+}
+
+.whiteText {
+    color:white;
+}
+
+span {
+    padding:10px !important;
+}
+
+.footer {
+    background-color:#737373;
+    height:120px;
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    border-top:5px solid #4aaaa5;
+}
+
+.footer span {
+    color:#4aaaa5;
+}
+
+/* .card-body{
+    margin-left:20px !important;
+    margin-right:20px !important;
+} */
+
+.thumbnail {
+    height:500px;
+    width:600px;
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+
+.full-screen {
+    width:100%;
+    height:100vh;
+}
+
+.lbl {
+    position:absolute;
+    padding:14px 10px;
+    background-color:#4aaaa5;
+    color:white;
+    margin-top:450px;
+    width:558px;
+    text-align:center;
+}
+
+.small-thumbnail {
+    height:130px;
+    width:140px;
+    display:flex;
+    justify-content:center;
+}
