@@ -127,6 +127,10 @@ nav h4 {
     padding-top: 20px;
 }
 
+.paddingBottom20{
+    padding-bottom:20px;
+}
+
 .borderBottom {
     border-bottom: 2px solid #cccccc;
 }
