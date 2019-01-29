@@ -9,10 +9,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.spacer {
+/* .spacer {
     height: 300px;
     background-color: transparent;
-}
+} */
 
 .container-fluid {
     background: rgba(255, 255, 255, 0.92) !important;
