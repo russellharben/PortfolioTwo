@@ -14,16 +14,22 @@ body {
     background-color: transparent;
 }
 
-.container {
-    background: rgba(255, 255, 255, 0.95) !important;
+.container-fluid {
+    background: rgba(255, 255, 255, 0.92) !important;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 #profilePic {
-    height: 300px;
-    width: 240px;
+    height: 400px;
+    width: 400px;
     border-radius: 10% !important;
+}
+
+.profileFlex {
+    display:flex;
+    justify-content:center;
+    align-content:center;
 }
 
 /* h4 {
@@ -49,6 +55,7 @@ nav {
 
 a {
     color: #862d86 !important;
+    text-decoration:none !important;
 }
 
 a:hover {
@@ -68,7 +75,7 @@ a:hover {
 }
 
 .nav .container ul li {
-    border-left: 1px solid #d9d9d9;
+    /* border-left: 1px solid #d9d9d9; */
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -96,6 +103,10 @@ nav h4 {
 
 .marginTop10 {
     margin-top: 10px !important;
+}
+
+.marginRight10 {
+    margin-right:10px;
 }
 
 /* #profilePic {
