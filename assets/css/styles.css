@@ -49,6 +49,14 @@ nav {
     margin-right: auto;
 }
 
+/* #myNavbar {
+
+} */
+
+#navButton {
+    color:#333333 !important;
+}
+
 .container {
     max-width: 960px !important;
 }
@@ -71,7 +79,7 @@ a:hover {
 
 .nav .container {
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .nav .container ul li {
@@ -86,7 +94,7 @@ a:hover {
 
 nav h4 {
     position: absolute;
-    margin-top: -7px;
+    margin-top: 2px;
     margin-left: 16px;
     background-color: #862d86;
     padding: 15px 12px;

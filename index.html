@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+
 </head>
 
 
@@ -35,14 +38,32 @@
 
     <nav class="nav">
         <div class="container">
-            <div class="row collapse navbar-collapse">
-                <a target="_blank" href="https://github.com/russellharben"><h4 class="pull-left padding20 whiteText"><i class="fa fa-github marginRight10" aria-hidden="true"></i>My Github</h4></a>
-                <ul class="list-inline pull-right navList collapse navbar-collapse">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a target="_blank" href="assets/resume/russellharben_resume.pdf">My Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <div class="row">
+                <a target="_blank" href="https://github.com/russellharben">
+                    <h4 class="pull-left padding20 whiteText"><i class="fa fa-github marginRight10" aria-hidden="true"></i>My
+                        Github</h4>
+                </a>
+                <button id="navButton" class="dropdown-toggle pull-right hidden" data-toggle="dropdown">
+                        <span class="navbar-btn"><i class="fa fa-bars"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">My Resume</a></li>
+                        <li><a href="#">Contact</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="list-inline pull-right nav navbar-nav">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a target="_blank" href="assets/resume/russellharben_resume.pdf">My Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div> -->
             </div>
         </div>
     </nav>
@@ -70,14 +91,10 @@
 
                         My name is Russell. I'm a web developer from Atlanta, GA.
 
-                        <!-- <br><br>
-
-                        I love to learn and I love to write code. -->
-
                         <br><br>
 
                         I'm currently in the process of polishing and updating my portfolio but please look
-                        
+
                         around in the meantime!
 
                     </div>
@@ -85,7 +102,7 @@
 
                 <div class="row marginTop100">
                     <div class="col-md-12">
-                        <h3>Core Skills:</h3>
+                        <h3>Core Competencies:</h3>
                     </div>
                     <!-- <div class="col-md-6"></div> -->
                 </div>
@@ -141,6 +158,13 @@
         <p>Copyright @2019</p>
         <span><a href="">LinkedIn</a> | <a href="tel: 561-345-1217">561-345-1217</a></span>
     </footer>
+
+
+<!-- JQuery -->
+
+
+
+    <script src="assets/javascript/javascript.js"></script>
 
 
 </body>
