@@ -32,19 +32,27 @@
 
 
     <!-- navbar -->
+
     <nav class="nav">
         <div class="container">
-            <div class="row collapse navbar-collapse">
+            <div class="row">
                 <a target="_blank" href="https://github.com/russellharben">
                     <h4 class="pull-left padding20 whiteText"><i class="fa fa-github marginRight10" aria-hidden="true"></i>My
                         Github</h4>
                 </a>
-                <ul class="list-inline pull-right navList collapse navbar-collapse">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a target="_blank" href="assets/resume/russellharben_resume.pdf">My Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <button id="navButton" class="navbar-toggle pull-right hidden margin10">
+                    <span class="navbar-toggle"><i class="fa fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a target="_blank" href="assets/resume/russellharben_resume.pdf">My Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -67,7 +75,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center">
-                            <a target="_blank" href="https://russellharben.github.io/workoutBuddies/"><span class="lbl">Workout Buddies</span></a>
+                            <a target="_blank" href="https://russellharben.github.io/workoutBuddies/"><span class="lbl">Workout
+                                    Buddies</span></a>
                             <a target="_blank" title="Check the Workout Buddies app and get your fitness on!" href="https://russellharben.github.io/workoutBuddies/">
                                 <img class="padding20 thumbnail" src="assets/images/andrew-ly-152166-unsplash.jpg" /></a>
                         </div>
@@ -78,10 +87,23 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center">
-                            <a target="_blank" href="https://russellharben.github.io/WordGuessGame/"><span class="lbl">Yellow Jacket Jeopardy</span></a>
+                            <a target="_blank" href="https://github.com/russellharben/liri-node-app.git"><span class="lbl">LIRI
+                                    Bot</span></a>
+                            <a target="_blank" title="Search song, concert, and movie data" href="https://github.com/russellharben/liri-node-app.git">
+                                <img class="padding20 thumbnail" src="assets/images/franck-v-795970-unsplash.jpg" /></a>
+                        </div>
+                        <p class="text-center"><a target="_blank" href="https://github.com/russellharben/liri-node-app.git">Github
+                                Repo - LIRI Bot</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center">
+                            <a target="_blank" href="https://russellharben.github.io/WordGuessGame/"><span class="lbl">Yellow
+                                    Jacket Jeopardy</span></a>
                             <a target="_blank" title="Play Yellow Jacket Jeopardy" href="https://russellharben.github.io/WordGuessGame/">
                                 <img class="padding20 thumbnail" src="assets/images/emily-morter-188019-unsplash.jpg" />
-                                
+
                             </a>
                         </div>
                         <p class="text-center"><a target="_blank" href="https://github.com/russellharben/WordGuessGame.git">Github
@@ -110,5 +132,11 @@
         <span><a href="">LinkedIn</a> | <a href="tel: 561-345-1217">561-345-1217</a></span>
     </footer>
 
+
+    <!-- JQuery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    <!-- Custom javascript-->
+    <script src="assets/javascript/javascript.js"></script>
 
 </body>

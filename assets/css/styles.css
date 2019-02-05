@@ -49,9 +49,9 @@ nav {
     margin-right: auto;
 }
 
-/* #myNavbar {
-
-} */
+.margin10 {
+    margin:10px;
+}
 
 #navButton {
     color:#333333 !important;
