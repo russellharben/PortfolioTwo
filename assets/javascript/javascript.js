@@ -29,14 +29,14 @@ $("#homeText").append(span);
 
 
 function typeWriter() {
-    var greeting = "Welcome!";
+    var greeting = "Hello there and welcome! My name is Russell.";
     var msg = greeting.split('');
     var letter = msg[counter];
     let str = msg;
     console.log(str.length);
 
     if (counter < str.length) {
-        span.append(letter).css("font-size","20px").css("font-weight","regular").css("color","#862d86");
+        span.append(letter).css("font-size","18px").css("font-weight","bold").css("color","#862d86");
         counter++;
         console.log("Counter = ", counter);
     } else {
