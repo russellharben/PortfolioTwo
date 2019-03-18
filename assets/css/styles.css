@@ -23,7 +23,9 @@ body {
 #profilePic {
     height: 400px;
     width: 400px;
-    border-radius: 10% !important;
+    border:3px solid #d9d9d9;
+    border-radius: 1% !important;
+    box-shadow:0px 4px 16px 2px #bfbfbf;
 }
 
 .profileFlex {
@@ -39,7 +41,8 @@ body {
 nav {
     background-color: white !important;
     width: 100% !important;
-    border-bottom: 2px solid #862d86;
+    border-bottom: 2px solid #993399;
+    box-shadow:2px 8px 16px 8px #666666;
 }
 
 .navbar {
@@ -75,6 +78,7 @@ a:hover {
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
+    border-right: 1px solid #f2f2f2;
 }
 
 .nav .container {
@@ -83,13 +87,14 @@ a:hover {
 }
 
 .nav .container ul li {
-    /* border-left: 1px solid #d9d9d9; */
-    padding-left: 10px;
-    padding-right: 10px;
+    border-left: 1px solid #f2f2f2;
+    /* padding-left: 2px;
+    padding-right: 2px; */
 }
 
-.nav .container ul li:first-of-type {
-    border-left: none;
+.nav .container ul li a:hover {
+    color:#ffffff !important;
+    background-color:#862d86;
 }
 
 nav h4 {
@@ -111,6 +116,10 @@ nav h4 {
 
 .marginTop10 {
     margin-top: 10px !important;
+}
+
+.marginTop30 {
+    margin-top: 30px !important;
 }
 
 .marginRight10 {
@@ -200,7 +209,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #862d86 !important
+    color: #cc66cc !important
 }
 
 /* .card-body{
@@ -214,6 +223,12 @@ footer a:hover {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    box-shadow:0px 8px 16px 4px #e6e6e6;
+    transition:.25s ease-in-out;
+}
+
+.thumbnail:hover {
+    box-shadow:0px 8px 20px 6px #bfbfbf;
 }
 
 .center {
@@ -290,4 +305,8 @@ footer a:hover {
 
 .fontSize18 {
     font-size:18px;
+}
+
+.marginRight8 {
+    margin-right:8px;
 }
