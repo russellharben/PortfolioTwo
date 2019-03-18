@@ -20,6 +20,8 @@ $(win).on("resize", function (e) {
 
 
 
+
+// Typewriter text on index.html
 var interval = setInterval(typeWriter, Math.floor(Math.random() * (200 - 100) + 100));
 var counter = 0;
 var span = $("<span>");
@@ -27,7 +29,7 @@ $("#homeText").append(span);
 
 
 function typeWriter() {
-    var greeting = "Welcome! Thank you for checking out my page.";
+    var greeting = "Welcome!";
     var msg = greeting.split('');
     var letter = msg[counter];
     let str = msg;
