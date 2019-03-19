@@ -119,7 +119,7 @@ nav h4 {
 }
 
 .marginTop30 {
-    margin-top: 30px !important;
+    margin-top: 40px !important;
 }
 
 .marginRight10 {
@@ -297,6 +297,10 @@ footer a:hover {
 
 .marginTop100 {
     margin-top:100px;
+}
+
+.marginTop60 {
+    margin-top:60px;
 }
 
 .marginBottom100 {
