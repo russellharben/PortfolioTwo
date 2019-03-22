@@ -22,7 +22,7 @@ $(win).on("resize", function (e) {
 
 
 // Typewriter text on index.html
-var interval = setInterval(typeWriter, Math.floor(Math.random() * (300 - 100) + 100));
+var interval = setInterval(typeWriter, Math.floor(Math.random() * (250 - 100) + 100));
 var counter = 0;
 var span = $("<span>");
 $("#homeText").delay(1500).append(span);
