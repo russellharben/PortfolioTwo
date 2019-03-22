@@ -22,31 +22,49 @@ $(win).on("resize", function (e) {
 
 
 // Typewriter text on index.html
-var interval = setInterval(typeWriter, Math.floor(Math.random() * (200 - 100) + 100));
+var interval = setInterval(typeWriter, Math.floor(Math.random() * (300 - 100) + 100));
 var counter = 0;
 var span = $("<span>");
-$("#homeText").append(span);
+$("#homeText").delay(1500).append(span);
 
 
 function typeWriter() {
-    var greeting = "Hello, World!  Welcome to my place.";
+    var greeting = "Hello, World!";
     var msg = greeting.split('');
     var letter = msg[counter];
     let str = msg;
-    console.log(str.length);
 
     if (counter < str.length) {
         span.append(letter)
-            .css("font-size","18px")
-            .css("font-weight","bold")
-            .css("color","#862d86");
-
+            .css("font-size", "22px")
+            .css("color", "#862d86");
         counter++;
-        console.log("Counter = ", counter);
     } else {
         clearInterval(interval);
     }
 }
 
-// interval();
+
+$(window).on("load", function () {
+    let completeChk = sessionStorage.getItem("animate");
+    if(completeChk) {
+        $("#profilePic").css("opacity","1").css("margin-top","0px");
+    }
+    else {
+        introFade();
+    }
+
+});
+
+function introFade() {
+
+    $("#profilePic").animate({
+        "opacity": "1",
+        "margin-top": "0px"
+    }, 1800);
+    
+    sessionStorage.setItem("animate","complete");
+};
+
+
 
